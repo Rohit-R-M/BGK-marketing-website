@@ -1,0 +1,60 @@
+.bg-light-section {
+    background-color: var(--bg-light);
+    border-radius: 60px;
+    margin: 50px auto;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.feature-card {
+    background: white;
+    padding: 40px;
+    border-radius: 24px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-blue);
+    box-shadow: var(--card-shadow);
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background: var(--accent-blue);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    color: var(--primary-blue);
+}
+
+.feat-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: var(--text-dark);
+}
+
+.feature-card p {
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .bg-light-section {
+        border-radius: 30px;
+        margin: 20px;
+    }
+}

@@ -1,0 +1,72 @@
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.section {
+  padding: 100px 5%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 2.8rem;
+  color: var(--text-dark);
+  margin-bottom: 15px;
+}
+
+.section-title p {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  background: var(--primary-blue);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 10px 15px -3px rgba(0, 102, 204, 0.3);
+}
+
+.btn-primary:hover {
+  background: var(--secondary-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 15px 20px -5px rgba(0, 102, 204, 0.4);
+}
+
+.btn-secondary {
+  background: var(--accent-blue);
+  color: var(--primary-blue);
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-secondary:hover {
+  background: #d0e8ff;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 20px;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+}

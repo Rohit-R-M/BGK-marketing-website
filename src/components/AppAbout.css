@@ -1,0 +1,144 @@
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    align-items: center;
+    gap: 80px;
+}
+
+.about-image {
+    position: relative;
+}
+
+.mockup-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.mockup-img {
+    width: 100%;
+    border: none;
+}
+
+.experience-card {
+    position: absolute;
+    top: 30%;
+    right: -40px;
+    background: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+}
+
+.play-icon {
+    color: var(--primary-blue);
+}
+
+.about-text h2 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+    color: var(--text-dark);
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 35px;
+    line-height: 1.7;
+}
+
+.perks-list {
+    margin-bottom: 40px;
+}
+
+.perks-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 18px;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.check-icon {
+    color: var(--primary-blue);
+    flex-shrink: 0;
+}
+
+.download-cta p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.store-btns {
+    display: flex;
+    gap: 15px;
+}
+
+.store-btn {
+    background: var(--primary-blue);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 180px;
+    text-align: left;
+}
+
+.store-btn:hover {
+    transform: translateY(-2px);
+    background: var(--secondary-blue);
+}
+
+.store-btn.coming-soon {
+    opacity: 0.85;
+    cursor: default;
+}
+
+.store-btn.coming-soon:hover {
+    transform: none;
+    background: var(--primary-blue);
+}
+
+.btn-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-label small {
+    font-size: 0.7rem;
+    opacity: 0.8;
+}
+
+.btn-label strong {
+    font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+        text-align: center;
+    }
+
+    .perks-list li {
+        justify-content: center;
+    }
+
+    .store-btns {
+        justify-content: center;
+    }
+
+    .experience-card {
+        display: none;
+    }
+}
