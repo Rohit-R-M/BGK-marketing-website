@@ -7,42 +7,42 @@ const destinations = [
     {
         title: 'Badami Cave Temples',
         location: 'Badami, Bagalkot',
-        image: '/images/badami-fort.jpg',
+        image: `${import.meta.env.BASE_URL}images/badami-fort.jpg`,
         rating: 4.9,
         description: 'Explore the majestic rock-cut cave temples, featuring exquisite carvings and ancient inscriptions from the 6th century.'
     },
     {
         title: 'Pattadakal',
         location: 'Pattadakal, Bagalkot',
-        image: '/images/S1.jpg',
+        image: `${import.meta.env.BASE_URL}images/S1.jpg`,
         rating: 4.8,
         description: 'A UNESCO World Heritage site showcasing a harmonious blend of architectural styles from the 7th and 8th centuries.'
     },
     {
         title: 'Aihole',
         location: 'Aihole, Badami, Bagalkot',
-        image: '/images/S2.jpg',
+        image: `${import.meta.env.BASE_URL}images/S2.jpg`,
         rating: 4.7,
         description: 'Known as the "Cradle of Indian Architecture," home to over 120 historic temples, including the famous Durga Temple.'
     },
     {
         title: 'Kudalasangama',
         location: 'Hunagund, Bagalkot',
-        image: '/images/Kudalasangama.jpg',
+        image: `${import.meta.env.BASE_URL}images/Kudalasangama.jpg`,
         rating: 4.7,
         description: 'A sacred pilgrimage center where the Krishna and Malaprabha rivers merge, featuring the Aikya Mantapa of Lord Basavanna.'
     },
     {
         title: 'Mahakuta',
         location: 'Mahakuta, Bagalkot',
-        image: '/images/mahakuta-group.jpg',
+        image: `${import.meta.env.BASE_URL}images/mahakuta-group.jpg`,
         rating: 4.9,
         description: 'A serene group of temples dedicated to Lord Shiva, centered around a natural spring tank known as Pushkarini.'
     },
     {
         title: 'Bhuthanatha Temple',
         location: 'Badami, Bagalkot',
-        image: '/images/bhuthanatha-temple.jpg',
+        image: `${import.meta.env.BASE_URL}images/bhuthanatha-temple.jpg`,
         rating: 4.8,
         description: 'A picturesque temple complex situated on the banks of Agastya Lake, offering stunning views, especially at sunset.'
     }

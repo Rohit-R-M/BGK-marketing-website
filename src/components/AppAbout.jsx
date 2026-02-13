@@ -15,7 +15,7 @@ const AppAbout = () => {
                 >
                     <div className="mockup-container">
                         <img
-                            src="/images/6.jpg"
+                            src={`${import.meta.env.BASE_URL}images/6.jpg`}
                             alt="App UI"
                             className="mockup-img"
                         />
