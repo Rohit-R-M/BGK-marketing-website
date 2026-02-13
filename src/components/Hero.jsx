@@ -13,7 +13,7 @@ const Hero = () => {
                     transition={{ duration: 0.8 }}
                     className="hero-text"
                 >
-                    <span className="badge">Discover the Chalukyan Heritage</span>
+                    <span className="badge">Land of Chalukyas</span>
                     <h1>Experience the Timeless Beauty of <span>Bagalkot</span></h1>
                     <p>
                         Explore the cradle of temple architecture. From the majestic caves of Badami
