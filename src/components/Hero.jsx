@@ -42,13 +42,20 @@ const Hero = () => {
                     transition={{ duration: 1 }}
                     className="hero-image-container"
                 >
-                    {/* Left Column Cards */}
-                    <div className="floating-cards-column left">
+                    {/* Row 1: 3 Cards */}
+                    <div className="floating-cards-row">
                         <div className="floating-card c1">
                             <div className="icon">🏛️</div>
                             <div className="info">
                                 <span>Heritage</span>
                                 <strong>25+ Spots</strong>
+                            </div>
+                        </div>
+                        <div className="floating-card c2">
+                            <div className="icon">🗺️</div>
+                            <div className="info">
+                                <span>Maps</span>
+                                <strong>Smart Nav</strong>
                             </div>
                         </div>
                         <div className="floating-card c3">
@@ -58,31 +65,10 @@ const Hero = () => {
                                 <strong>Real-time</strong>
                             </div>
                         </div>
-                        <div className="floating-card c6">
-                            <div className="icon">🏨</div>
-                            <div className="info">
-                                <span>Stays</span>
-                                <strong>Services</strong>
-                            </div>
-                        </div>
-                        <div className="floating-card c7">
-                            <div className="icon">📖</div>
-                            <div className="info">
-                                <span>Guides</span>
-                                <strong>Travel Tips</strong>
-                            </div>
-                        </div>
                     </div>
 
-                    {/* Right Column Cards */}
-                    <div className="floating-cards-column right">
-                        <div className="floating-card c2">
-                            <div className="icon">🗺️</div>
-                            <div className="info">
-                                <span>Maps</span>
-                                <strong>Smart Nav</strong>
-                            </div>
-                        </div>
+                    {/* Row 2: 2 Cards */}
+                    <div className="floating-cards-row">
                         <div className="floating-card c4">
                             <div className="icon">🛣️</div>
                             <div className="info">
@@ -97,11 +83,47 @@ const Hero = () => {
                                 <strong>Top Gems</strong>
                             </div>
                         </div>
+                    </div>
+
+                    {/* Row 3: 3 Cards */}
+                    <div className="floating-cards-row">
+                        <div className="floating-card c6">
+                            <div className="icon">🏨</div>
+                            <div className="info">
+                                <span>Stays</span>
+                                <strong>Services</strong>
+                            </div>
+                        </div>
+                        <div className="floating-card c7">
+                            <div className="icon">📖</div>
+                            <div className="info">
+                                <span>Guides</span>
+                                <strong>Travel Tips</strong>
+                            </div>
+                        </div>
                         <div className="floating-card c8">
                             <div className="icon">⭐</div>
                             <div className="info">
                                 <span>Ratings</span>
                                 <strong>Top Rated Places</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Row 4: 2 Cards */}
+                    <div className="floating-cards-row">
+                        <div className="floating-card c9">
+                            <div className="icon">🥘</div>
+                            <div className="info">
+                                <span>Cuisine</span>
+                                <strong>Local Food</strong>
+                            </div>
+                        </div>
+                        <div className="floating-card c10">
+                            <div className="icon">📅</div>
+                            <div className="info">
+                                <span>Events</span>
+                                <strong>Upcoming</strong>
                             </div>
                         </div>
                     </div>
